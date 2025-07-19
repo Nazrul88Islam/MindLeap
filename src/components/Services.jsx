@@ -103,9 +103,9 @@ const Services = () => {
                   Benefits
                 </h4>
                 <ul className="list-disc list-inside space-y-3">
-                  <li>Understanding Relationship Dynamic</li>
-                  <li>Understanding Relationship Dynamic</li>
-                  <li>Understanding Relationship Dynamic</li>
+                  <li>Understanding Relationship Dynamic1</li>
+                  <li>Understanding Relationship Dynamic2</li>
+                  <li>Understanding Relationship Dynamic3</li>
                 </ul>
               </div>
               <div className="md:w-1/2">
