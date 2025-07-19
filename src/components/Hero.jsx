@@ -1,4 +1,3 @@
-import React from "react";
 import heroImg from "../assets/hero.webp";
 import { IoArrowBackCircleSharp } from "react-icons/io5";
 import { motion } from "framer-motion";

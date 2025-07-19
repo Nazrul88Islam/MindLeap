@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { GiEmerald } from "react-icons/gi";
+import { useState, useEffect } from "react";
 import { RiMenuFold3Fill } from "react-icons/ri";
 import { motion } from "framer-motion";
 

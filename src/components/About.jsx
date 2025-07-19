@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import thumnailImg from "../assets/video-thumbnail.webp";
 import { IoPlay } from "react-icons/io5";
 import { IoArrowBackCircleSharp } from "react-icons/io5";
@@ -71,14 +71,12 @@ const About = () => {
           <div className="fixed inset-0  bg-black bg-opacity-75 flex items-center justify-center z-50">
             <div className="relative w-full h-full flex items-center justify-center">
               <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/bjYjj0dzRfs?si=d24Vs9knyC68NnkZ"
-                title="YouTube video player"
-                frameborder="0"
+                src="https://www.youtube.com/embed/Y5x8l0zxaZg?si=Wd5Ej-8g_jJnMcqI"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                className="w-full h-full rounded-lg"
               ></iframe>
               <button
                 onClick={handleCloseVideo}

@@ -1,4 +1,3 @@
-import React from "react";
 import { BsFillChatQuoteFill } from "react-icons/bs";
 import review1 from "../assets/review1.webp";
 import review2 from "../assets/review2.webp";

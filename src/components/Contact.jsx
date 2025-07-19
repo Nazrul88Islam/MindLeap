@@ -1,11 +1,5 @@
-import React, { useState } from "react";
-import {
-  FaEnvelope,
-  FaGlobe,
-  FaMobile,
-  FaPhoneAlt,
-  FaUserAlt,
-} from "react-icons/fa";
+import { useState } from "react";
+import { FaEnvelope, FaGlobe, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -48,7 +42,7 @@ const Contact = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-white">
               <div className="flex items-start gap-4">
                 <div className="flex items-center justify-center rounded-full bg-[#ffffff1a] p-3">
-                  <FaUserAlt className="text-primary" />
+                  <FaMapMarkerAlt className="text-primary" />
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-lg font-medium"> 24 hours Services</h3>
@@ -68,7 +62,7 @@ const Contact = () => {
 
               <div className="flex items-start gap-4">
                 <div className="flex items-center justify-center rounded-full bg-[#ffffff1a] p-3">
-                  <FaPhoneAlt className="text-primary" />
+                  <FaPhone className="text-primary" />
                 </div>
                 <div className="space-y-1">
                   <h3 className="text-lg font-medium"> High Quality Care</h3>

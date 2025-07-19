@@ -1,5 +1,4 @@
-import React from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tab, Tabs, TabPanel } from "react-tabs";
 import serviceImg1 from "../assets/service1.webp";
 import serviceImg2 from "../assets/service2.webp";
 import serviceImg3 from "../assets/service3.webp";
@@ -31,7 +30,7 @@ const Services = () => {
 
         <div className="py-12 md:w-4/5 mx-auto"></div>
         <Tabs>
-          <motion.TabList
+          <motion.div
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
@@ -43,7 +42,7 @@ const Services = () => {
 
             <Tab>Feeling Stuck</Tab>
             <Tab>Self-Confidence</Tab>
-          </motion.TabList>
+          </motion.div>
 
           <TabPanel>
             <motion.div
