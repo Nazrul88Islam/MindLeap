@@ -14,13 +14,14 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      // <Services />
+      <Services />
       <About />
       <WorkingStep />
       <Pricing />
       <Testimonial />
       <Contact />
       <Footer />
+
       {/* <h1 className='text-2xl font-normal'>MindLeap Mentall Wellness React Project Starter Files</h1> */}
     </div>
   );
